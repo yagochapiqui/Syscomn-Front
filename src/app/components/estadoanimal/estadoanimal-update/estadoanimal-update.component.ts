@@ -52,7 +52,6 @@ export class EstadoanimalUpdateComponent implements OnInit {
 
       }
     })
-
   }
   validaCampos(): boolean {
     return this.descricao.valid
