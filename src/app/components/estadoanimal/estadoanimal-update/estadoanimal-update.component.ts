@@ -16,7 +16,6 @@ export class EstadoanimalUpdateComponent implements OnInit {
     idEstadoAnimal:'',
     descricao:''
   }
-
   descricao: FormControl = new FormControl(null, Validators.required);
 
   constructor( 
