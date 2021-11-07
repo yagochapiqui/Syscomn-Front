@@ -73,6 +73,8 @@ import { TipofornecedorUpdateComponent } from './components/tipofornecedor/tipof
 import { RegimeengordaCreateComponent } from './components/regimeengorda/regimeengorda-create/regimeengorda-create.component';
 import { RegimeengordaDeleteComponent } from './components/regimeengorda/regimeengorda-delete/regimeengorda-delete.component';
 import { RegimeengordaUpdateComponent } from './components/regimeengorda/regimeengorda-update/regimeengorda-update.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
@@ -120,7 +122,9 @@ import { RegimeengordaUpdateComponent } from './components/regimeengorda/regimee
     TipofornecedorUpdateComponent,
     RegimeengordaCreateComponent,
     RegimeengordaDeleteComponent,
-    RegimeengordaUpdateComponent
+    RegimeengordaUpdateComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
