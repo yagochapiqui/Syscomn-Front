@@ -26,6 +26,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import {MatMenu, MatMenuModule} from '@angular/material/menu';
 
 
 // Componentes do Projeto
@@ -133,6 +134,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     // Forms
     FormsModule,
     ReactiveFormsModule,
+    MatMenuModule,
     
     // Requisições http
     HttpClientModule,

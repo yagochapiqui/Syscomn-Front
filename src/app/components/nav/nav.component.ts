@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,8 +8,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  options: FormGroup;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    
+   }
 
   ngOnInit(): void {
     this.router.navigate(['home'])
